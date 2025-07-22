@@ -13,7 +13,7 @@ function Start() {
       <section className='flex flex-col p-3'>
         <p className=' py-8 text-3xl font-semibold'>Get Started with Uber</p>
         <div className='flex bg-zinc-950 w-full items-center px-3 py-3 rounded-lg'>
-          <Link className='bg-zinc-950 w-full text-center text-lg text-white font-bold' to="/login">Continue</Link>
+          <Link className='bg-zinc-950 w-full text-center text-lg text-white font-bold' to="/user-login">Continue</Link>
           <FaArrowRight size="25px" color='white' />
         </div>
       </section>

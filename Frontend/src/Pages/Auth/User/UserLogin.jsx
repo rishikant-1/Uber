@@ -46,6 +46,7 @@ function UserLogin() {
           <input
             className='p-2 text-xl w-full rounded-md bg-gray-200 border border-gray-300'
             type="password"
+            autoComplete='false'
             placeholder='Enter your Password'
             {...register('password', {
               required: 'Password is required',
